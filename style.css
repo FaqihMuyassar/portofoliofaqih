@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=IBM+Plex+Mono&family=Poppins:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 420vh;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background: white;
+    z-index: 999;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 48px;
+    color: rgb(75, 152, 167);
+}
+
+.menuitems {
+    display: flex;
+}
+
+.menuitems li {
+    list-style: none;
+    margin: 25px;
+}
+
+.menuitems li a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.menuitems li:hover a {
+    color: rgb(75, 152, 167);
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+}
+
+.text-container {
+     width: 50%;
+    padding-left: 100px;
+    padding-top: 350px; 
+}
+
+.text-container h4 {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text-container h1 {
+    color: rgb(75, 152, 167);
+    font-size: 70px;
+}
+
+.text-container p {
+    font-size: 24px;
+    color: black;
+    padding-top: 10px;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+}
+
+.text-about {
+    padding-top: 200px;
+}
+
+.text-about h1 {
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(75, 152, 167);
+    padding-left: 800px;
+}
+
+.kotakabout {
+    width: 80%;
+    height: 520px;
+    border: 2px solid rgb(75, 152, 167);
+    margin-left: 200px;
+    border-radius: 10px;
+    display: flex;
+    gap: 150px;
+    margin-top: 30px;
+}
+
+.kotak1 {
+    width: 30%;
+    float: left;
+    margin-left: 150px;
+    padding: 20px;
+}
+
+.kotak1 h2 {
+    font-weight: 400;
+    font-size: 36px;
+    color: rgb(75, 152, 167);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.kotak1 .profil {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.kotak1 .p1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.kotak1 .p2 {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+.portofolio {
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.text-portofolio h1 {
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(75, 152, 167);
+    padding-left: 800px;
+    padding-top: 200px;
+}
+
+.container1 {
+    display: flex;
+    gap: 100px; /* mengatur jarak item */
+    justify-content: center;
+}
+
+.kotak3 {
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(75, 152, 167);
+}
+
+.kotak3 h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.kotak3 p {
+    font-size: 24px;
+    text-align: center;
+    padding-inline: 50px;
+    padding-top: 70px;
+}
+
+.kotak3 button {
+    border: 2px solid rgb(75, 152, 167);
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 100px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.kotak3 button:hover {
+    background-color: rgb(75, 152, 167);
+    color: white;
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+}
+
+.text-contact h1 {
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(75, 152, 167);
+    padding-left: 780px;
+    padding-top: 200px;
+}
+
+.inputcontact {
+    display: flex;
+    gap: 30px;
+    padding-left: 450px;
+    margin-top: 100px ;
+}
+
+.nama input {
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.email input {
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.komentar input {
+    width: 1030px;
+    height: 300px;
+    margin-top: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-left: 450px;
+}
+
+.contact button {
+    width: 500px;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(75, 152, 167);
+    border: 2px solid rgb(75, 152, 167);
+    border-radius: 6px;
+    margin-left: 730px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.contact button:hover {
+    color: rgb(75, 152, 167);
+    background-color:white;
+}
+
+.footer {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 850px;
+}
+
+.garis1 {
+    background: rgb(75, 152, 167);
+    height: 2px;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    margin-left: 900px;
+}
+
+.icons a{
+    font-size: 34px;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: rgb(75, 152, 167);
+}
+
+footer .garis1 {
+    width: 90%;
+    height: 2px;
+    margin-top: 2000px;
+}
